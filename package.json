@@ -1,0 +1,17 @@
+{
+  "name": "mezzarobot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vandal",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "mongoose": "^5.4.21",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {},
+  "description": "Bot for the Mezzaro shop"
+}
