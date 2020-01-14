@@ -3,15 +3,27 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "vandal",
+  "author": "ZTS",
   "license": "ISC",
   "dependencies": {
+    "core-util-is": "^1.0.2",
     "discord.js": "^11.4.2",
-    "mongoose": "^5.4.21",
-    "ms": "^2.1.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7",
+    "ms": "^2.1.1",
+    "shoppy.gg": "^1.0.2"
   },
   "devDependencies": {},
-  "description": "Bot for the Mezzaro shop"
+  "description": "Bot for the Mezzaro shop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroTheScyther/MegaroBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZeroTheScyther/MegaroBot/issues"
+  },
+  "homepage": "https://github.com/ZeroTheScyther/MegaroBot#readme"
 }
