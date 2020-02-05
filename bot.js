@@ -14,8 +14,6 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const config = require('./config.json');
 const fs = require('fs');
-const Shoppy = require('Shoppy.gg');
-const API = new Shoppy.API(config.apiKey);
 bot.commands = new Discord.Collection();
 
 fs.readdir("./commands/", (err, files) => {
@@ -60,20 +58,6 @@ bot.on("message", async message => {
   if(cmd === `ping`)
   {
     return message.channel.send("Pong!");
-  }
-
-  if(cmd === `${prefix}guildinfo`){
-    let sicon = message.guild.iconURL;
-    let serverembed = new Discord.RichEmbed()
-    .setDescription("Server Information")
-    .setColor("#15f153")
-    .setThumbnail(sicon)
-    .addField("Guild Name", message.guild.name)
-    .addField("Created On", message.guild.createdAt)
-    .addField("You Joined", message.member.joinedAt)
-    .addField("Total Members", message.guild.memberCount);
-
-    return message.channel.send(serverembed);
   }
 
   if(cmd ===  `${prefix}botinfo`)

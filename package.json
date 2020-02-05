@@ -14,16 +14,9 @@
     "express": "^4.17.1",
     "mongoose": "^5.8.7",
     "ms": "^2.1.1",
-    "shoppy.gg": "^1.0.2"
+    "shoppy.gg": "^1.0.2",
+    "xpath": "0.0.27"
   },
   "devDependencies": {},
-  "description": "Bot for the Mezzaro shop",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZeroTheScyther/MegaroBot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ZeroTheScyther/MegaroBot/issues"
-  },
-  "homepage": "https://github.com/ZeroTheScyther/MegaroBot#readme"
+  "description": "Bot for the Mezzaro shop"
 }
